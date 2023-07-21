@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Unbounded", cursive;
+}
+
+body {
+  background-color: black;
+  color: greenyellow;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.container {
+  background-color: blueviolet;
+  color: greenyellow;
+  padding: 2em;
+  border-radius: 2em;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.submit {
+  border: none;
+  background-color: palegreen;
+  padding: 0.5em;
+  border-radius: 1em;
+  margin-top: 1em;
+  transition: 0.4s ease;
+}
+
+.submit:hover {
+  background-color: greenyellow;
+  color: aquamarine;
+  transform: scale(1.1);
+  transition: 0.4s ease;
+}
+
+form {
+  margin: 2em auto;
+  width: 20em;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  color: aquamarine;
+  font-size: large;
+  margin-bottom: 1.5em;
+}
+input {
+  border: none;
+  border-bottom: 2px solid greenyellow;
+  background-color: aquamarine;
+  height: 2em;
+}
+input:focus {
+  transform: scale(1.1);
+  border: 2px solid greenyellow
+}
+
+.mad-lib {
+  width: 20em;
+  margin: 2em auto;
+}
+
+b {
+  color: lightgrey;
+}
